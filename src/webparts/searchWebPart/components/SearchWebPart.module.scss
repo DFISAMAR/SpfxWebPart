@@ -1,0 +1,43 @@
+/* SearchWebPart.module.scss */
+
+.searchWebPart {
+  /* Styles for the main container */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #0078d7;
+  color: white;
+}
+
+.searchBox {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.searchResults {
+  list-style: none;
+  padding: 0;
+}
+
+.searchResult {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.details {
+  margin-left: 10px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.email, .role {
+  color: #555;
+}

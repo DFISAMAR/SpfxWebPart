@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "search-web-part-client-side-solution",
+    "id": "c03ee686-c3ef-49fa-bce3-fe87eecc71ce",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "search-web-part description"
+      },
+      "longDescription": {
+        "default": "search-web-part description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "search-web-part Feature",
+        "description": "The feature that activates elements of the search-web-part solution.",
+        "id": "bf4b07ba-305f-4668-bd8e-2e1b1b30210e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/search-web-part.sppkg"
+  }
+}

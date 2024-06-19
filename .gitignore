@@ -1,0 +1,74 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+
+# Build generated files
+dist
+lib
+release
+solution
+temp
+*.sppkg
+.heft
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# OSX
+.DS_Store
+
+# Visual Studio files
+.ntvs_analysis.dat
+.vs
+bin
+obj
+
+# Resx Generated Code
+*.resx.ts
+
+# Styles Generated Code
+*.scss.ts
+
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,react
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,react
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,react
